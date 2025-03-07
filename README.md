@@ -25,6 +25,12 @@ This bot:
    }
    ```
    Add as many job titles as you want to search for!
+4. Update the constants in `src/constants.py` to match your resume, cover letter, and transcript file names in handshake:
+   ```python
+   XPATH_RESUME_BUTTON = "//button[contains(@aria-label, 'your-resume-filename.pdf')]"
+   XPATH_COVERLETTER_BUTTON = "//button[contains(@aria-label, 'your-coverletter-filename')]"
+   XPATH_TRANSCRIPT_BUTTON = "//button[contains(@aria-label, 'your-transcript-filename.pdf')]"
+   ```
 
 ## 🚀 Usage Options
 
