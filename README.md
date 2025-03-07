@@ -1,6 +1,14 @@
-# 🤖 Handshake Job Bot
+# 🤖 🤝 Handshake Job Bot
 
-A magical bot that automatically applies to jobs on Handshake so you can focus on more important things... like preparing for those interviews you're about to get!
+A magical bot that automatically applies to jobs on Handshake so you can focus on more important things... like preparing for those interviews you're about to get 😉
+
+This bot: 
+
+- Automatically applies to jobs on Handshake
+- Skips jobs you've already applied to
+- Handles external application links
+- Fills out basic application forms
+- Logs all applied jobs for tracking
 
 ## 🛠️ Setup
 
@@ -33,6 +41,7 @@ This is the easiest and most reliable method! You get to log in manually and set
    ```
    chrome.exe --remote-debugging-port=9222 --incognito
    ```
+   (or `.\chrome.ext --remote-debugging-port=9222 --incognito`)
 
 #### 🍎 Mac:
 1. Close ALL Chrome windows
@@ -42,7 +51,7 @@ This is the easiest and most reliable method! You get to log in manually and set
    ```
 
 #### Next steps (all platforms):
-4. Log into Handshake using your institution's login
+4. Chrome should open. Now log into Handshake using your institution's login
 5. Navigate to the Jobs panel
 6. Set ALL your desired filters (full-time, internship, location, etc.)
 7. Click "Show Results" to see your filtered jobs
@@ -61,6 +70,7 @@ This method requires more setup and may be less reliable with institution logins
    HANDSHAKE_NETID=your_netid_or_username
    HANDSHAKE_PASSWORD=your_password
    ```
+   Note: These are the credentials for logging into your institution, not Handshake directly.
 
 2. Find your institution's Handshake login URL:
    - Open a new Chrome window
@@ -99,20 +109,24 @@ This method requires more setup and may be less reliable with institution logins
 - **Login issues**: Some institutions have complex login flows that the bot can't handle automatically. Use the `--use-existing` method instead.
 - **No jobs found**: Double-check your filters and make sure there are actually jobs matching your criteria
 
-## 🌟 Features
-
-- Automatically applies to jobs on Handshake
-- Skips jobs you've already applied to
-- Handles external application links
-- Fills out basic application forms
-- Logs all applied jobs for tracking
-- Works with your existing browser session
 
 ## 🧙‍♂️ Pro Tips
 
-- Run the bot regularly to catch new job postings
-- Use specific job titles for better results
-- Check the logs to see which jobs were applied to
+- Add forms like your resume, transcript, and cover letter to handshake so the bot can apply with them.
+- Check the logs in `logs/application_log.txt` to see which jobs were applied to
 - Use the `--use-existing` method for the most reliable experience
+- Review the console output for real-time status updates
+- Open up a different Chrome window to work on other shiz while the bot runs 
 
 Happy job hunting! 🎯 
+
+
+## 💪 Support
+
+This is a solo project I maintain between job applications and late-night coding sessions. If this bot has saved you hours of tedious clicking (and possibly your sanity), I'd genuinely appreciate your support:
+
+- ⭐ Star this repo on GitHub (it's free and makes my day!)
+- [GitHub Sponsors](https://github.com/sponsors/nranabhat)
+- [Buy Me a Coffee](https://buymeacoffee.com/nranabhat) (coffee directly converts to code, it's science)
+
+Your support helps keep this tool running and improving - plus it's nice to know someone out there finds this useful!
