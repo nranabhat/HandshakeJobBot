@@ -1,0 +1,24 @@
+{
+    "handshake": {
+        "login_url": "https://wisc.joinhandshake.com/login",
+        "filtered_search_url": "https://wisc.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&sort_column=default&employment_type_names%5B%5D=Full-Time&job.job_types%5B%5D=9"
+    },
+    "job_search": {
+        "titles": [
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "Data Engineer",
+            "AI Engineer",
+            "Full Stack Developer",
+            "Backend Developer",
+            "Frontend Developer",
+            "Software Engineer",
+            "Data Scientist"
+        ]
+    },
+    "settings": {
+        "min_wait_time": 1,
+        "max_wait_time": 3,
+        "verbose_logging": false
+    }
+} 

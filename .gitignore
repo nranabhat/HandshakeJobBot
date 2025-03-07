@@ -1,0 +1,16 @@
+# .gitignore
+# Python
+__pycache__/
+*.pyc
+
+# venv
+venv/
+
+# IDE
+.idea/
+
+# VSCode
+.vscode/
+
+# .env
+.env
