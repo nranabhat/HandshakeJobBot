@@ -17,3 +17,9 @@ venv/
 
 # .env
 .env
+
+# -p
+-p/
+
+# analysis
+analysis/

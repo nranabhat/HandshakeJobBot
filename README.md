@@ -1,5 +1,7 @@
 # 🤖 🤝 Handshake Job Bot
 
+![Demo](demo.png)
+
 A magical bot that automatically applies to jobs on Handshake so you can focus on more important things... like preparing for those interviews you're about to get 😉
 
 This bot: 
